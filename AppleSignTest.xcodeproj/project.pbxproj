@@ -49,6 +49,7 @@
 		933D014A2472A338004EE208 /* AppleSignTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleSignTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		933D014E2472A338004EE208 /* AppleSignTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSignTestUITests.swift; sourceTree = "<group>"; };
 		933D01502472A338004EE208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		933D015C2472A646004EE208 /* AppleSignTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppleSignTest.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 		933D012B2472A338004EE208 /* AppleSignTest */ = {
 			isa = PBXGroup;
 			children = (
+				933D015C2472A646004EE208 /* AppleSignTest.entitlements */,
 				933D012C2472A338004EE208 /* AppDelegate.swift */,
 				933D012E2472A338004EE208 /* SceneDelegate.swift */,
 				933D01302472A338004EE208 /* ViewController.swift */,
@@ -434,6 +436,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AppleSignTest/AppleSignTest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U7LN8HVLD8;
 				INFOPLIST_FILE = AppleSignTest/Info.plist;
@@ -452,6 +455,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AppleSignTest/AppleSignTest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U7LN8HVLD8;
 				INFOPLIST_FILE = AppleSignTest/Info.plist;
